@@ -83,10 +83,10 @@ section{
 
 .home-img img {
     width: 35vw;
-    animation: floatimage 4s ease-in-out infinite;
+    /* animation: floatimage 4s ease-in-out infinite; */
 }
 
-@keyframes floatimage {
+/* @keyframes floatimage {
     0%{
         transform: translateY(0);
     }
@@ -98,7 +98,7 @@ section{
     100%{
         transform: translateY(0);
     }
-}
+} */
 
 .home-content h3 {
     font-size: 3.2rem;
