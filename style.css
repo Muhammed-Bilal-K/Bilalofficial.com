@@ -83,6 +83,8 @@ section{
 
 .home-img img {
     width: 35vw;
+    border-radius: 50%;
+    margin-left: 40px;
     /* animation: floatimage 4s ease-in-out infinite; */
 }
 
@@ -163,12 +165,15 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 3.5rem;
     background: var(--second-bg-color);
 }
 
 .about-img img{
-    width: 35vw;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .heading{
@@ -466,8 +471,8 @@ span{
     }
 
     .about img{
-        width: 70vw;
-        margin-top: 4rem;
+        /* width: 70vw; */
+        margin-top: 2rem;
     }
 
     .services h2{
